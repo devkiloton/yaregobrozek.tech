@@ -5,7 +5,7 @@
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
-  --transition-speed: 600ms;
+  --transition-speed: 500ms;
 }
 
 header{
@@ -47,15 +47,15 @@ body::-webkit-scrollbar-thumb {
   background: #6649b8;
 }
 
-main {
+/*main {
   margin-left: 0px;
   padding: 0;
-}
+}*/
 
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
-  transition: width 600ms ease;
+  transition: width 500ms ease;
 }
 
 .navbar-nav {
@@ -165,9 +165,9 @@ main {
     justify-content: center;
   }
 
-  main {
+  /*main {
     margin: 0;
-  }
+  }*/
 }
 
 /* Large screens */
@@ -256,7 +256,7 @@ main {
 
 .pimg1{
   background-image:url('Code.jpg');
-  min-height:90%;
+  min-height: 100%;
 }
 
 .pimg2{
@@ -312,3 +312,13 @@ main {
     }
   }
   
+  .footer{
+    text-align:center;
+    padding:10px 80px;
+    background-color:#323241;
+    color:#ddd;
+  }
+
+  footer p{
+    margin-bottom: 80px;
+  }
